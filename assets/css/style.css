@@ -133,3 +133,31 @@ background-color: rgb(50, 39, 74);
     text-align: center;
     color: #f6e42e;
 }
+/* FaQ section  */
+.faq1{
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0;
+    color: #f6e42e;
+}
+.accordion-flush .accordion-item .accordion-button {
+
+    background-color: #fe4759 !important;
+}
+.accordion-button{
+    color: #fff;
+}
+.accordion-body{
+    background-color: #fe4759 !important;
+}
+.accordion-button:focus {
+    border-color: none;
+}
+.accordion-button:not(.collapsed){
+    color: #f6e42e;
+}
+.accordion .accordion-flush{
+}
