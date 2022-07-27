@@ -1,0 +1,135 @@
+*{
+    text-decoration: none;
+    color: white;
+    /* background-color: #261a40; */
+}
+.nav-link{
+    color: #f6e42e !important;
+}
+.nav-link:hover{
+    /* color: rgb(247, 106, 11)!important; */
+    color:  #fe4759 !important;
+
+    }
+    .navbarbtn {
+        background-color: #fe4759;
+        color: #f6e42e;
+        font-family: Gilroy-Medium;
+        font-size: 16px;
+    }
+    .navbarbtn:hover{
+        background-color: #f6e42e;
+        color:  #fe4759;
+    }
+    .head{
+        color: #fe4759 !important;
+    }
+    .para{
+        color: #f6e42e !important;
+    }
+    .bg-img{
+        background-image: url(/assets/img/Attachment.02312234.jpg) !important ;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: 50% !important;
+        width: 100% !important;
+        height: 40vh !important;
+    }
+   
+
+.section{
+    background-color: #261a40;
+}
+
+/* second section  */
+.roadmapimg{
+    background-color: #fe4759;
+    color: #fe4759;
+    z-index: 10000;
+}
+.card{
+    background-color: #261a40;
+    border: 2px solid  #fe4759;
+    border-radius: 20px;
+}
+
+
+.align-top{
+   height: 40rems;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 17px solid #fe4759;
+}
+.badge{
+    background-color:#fe4759;
+}
+/* 3rd section  */
+.three-section {
+    
+    background-image: url(/assets/img/mint_bg_ALT.jpg) !important ;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+   
+}
+.circleimage {
+    
+    width: 60% !important;
+    height: 50% !important;
+}
+.statush2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 43px;
+    text-align: center;
+    
+}
+.statusp {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    color: #fff;
+}
+/* token section  */
+.token-section{
+    background-color: #261a40;
+}
+.container3{
+background-color: rgb(50, 39, 74);
+}
+.card{
+    border: none !important;
+    background-color: rgb(50, 39, 74);
+}
+.card-img-top{
+
+    width:30%;
+}
+.card-img-center{
+
+    width:90% !important;
+}
+.statush4{
+    font-size: 24px !important;
+    line-height: 23px !important;
+    text-align: center !important;
+    color: #fe4759 !important ;
+}
+.card-text{
+    font-size: 18px;
+    text-justify: inter-word;
+    -webkit-hyphens: auto!important;
+    -ms-hyphens: auto!important;
+    hyphens: auto!important;
+    word-spacing: normal;
+    hyphens: auto;
+    text-align: center;
+    color: #f6e42e;
+}
