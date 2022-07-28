@@ -248,8 +248,8 @@ background-color: rgb(50, 39, 74);
         line-height: 27px;
     }
     
-    .list ul {
-        padding-left: 0rem;
+     ul {
+        padding-left: 1rem;
     }
 }
 /* claim Main */
