@@ -124,6 +124,7 @@ background-color: rgb(50, 39, 74);
     border: none !important;
     background-color: rgb(50, 39, 74);
 }
+
 .card-img-top{
 
     width:30%;
@@ -233,13 +234,24 @@ background-color: rgb(50, 39, 74);
     font-style: normal;
     font-weight: 650;
     font-size: 14px;
-    line-height: 35px;
     
+
 }
 
-
-
-
+@media screen and (max-width:992px) {
+    
+    
+    .list ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    
+    .list ul {
+        padding-left: 0rem;
+    }
+}
 /* claim Main */
 .claim{
     background-image: url(/assets/img/Attachment111.800bc9b1.jpeg) !important ;
@@ -247,19 +259,4 @@ background-color: rgb(50, 39, 74);
     background-size: cover !important;
     height: 100%;
     width:100%;
-}
-
-@media screen and (max-width:600px) {
-    
-
-    .list ul{
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
-        line-height: 27px;
-    }
-
-    ul {
-        padding-left: 0rem;
-    }
 }
