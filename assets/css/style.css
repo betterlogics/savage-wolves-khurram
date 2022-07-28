@@ -219,24 +219,27 @@ background-color: rgb(50, 39, 74);
 .footer {
     background-color: #261a40;
 }
-.footercol {
+
+.list ul{
+    list-style: none;
+}
+
+.list ul a{
+    text-decoration: none;
+    color: white;
+}
+.list {
     font-family: gilroy-medium;
     font-style: normal;
     font-weight: 650;
     font-size: 14px;
     line-height: 35px;
-    color: #fff;
-}
-
-.footercol ul li{
-    list-style: none;
     
 }
-.footercol ul li a{
-    text-decoration: none !important;
- 
-    color: #f6e42e !important;
-}
+
+
+
+
 /* claim Main */
 .claim{
     background-image: url(/assets/img/Attachment111.800bc9b1.jpeg) !important ;
@@ -244,4 +247,19 @@ background-color: rgb(50, 39, 74);
     background-size: cover !important;
     height: 100%;
     width:100%;
+}
+
+@media screen and (max-width:600px) {
+    
+
+    .list ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    ul {
+        padding-left: 0rem;
+    }
 }
