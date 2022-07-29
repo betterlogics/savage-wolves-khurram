@@ -1,12 +1,15 @@
 *{
     text-decoration: none;
     color: white;
-    font-family: Gilroy-Medium;
+    
     /* background-color: #261a40; */
 }
+body{
+    font-family: Gilroy-Medium !important;
+    font-style: normal !important;
+}
 .nav-link{
-    color: #f6e42e !important;
-    
+    color: #f6e42e !important; 
     font-size: 25px;
 
 }
@@ -18,7 +21,7 @@
     .navbarbtn {
         background-color: #fe4759;
         color: #f6e42e;
-        font-family: Gilroy-Medium;
+        /* font-family: Gilroy-Medium; */
         font-size: 16px;
     }
     .navbarbtn:hover{
@@ -41,7 +44,7 @@
     }
     
     .menuh2{
-        font-family: Gilroy-Medium;
+        /* font-family: Gilroy-Medium; */
         font-size: 30px;
         padding-top: 10px;
     }
@@ -74,8 +77,8 @@
     border-top: 17px solid #fe4759;
 }
 .badge{
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium; */
+    /* font-style: normal; */
     font-size:28px;
     background-color:#fe4759;
 }
@@ -94,8 +97,8 @@
 }
 
 .statush2 {
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     font-weight: 500;
     font-size: 50px;
     line-height: 43px;
@@ -103,8 +106,8 @@
     
 }
 .statusp {
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
@@ -135,15 +138,15 @@ background-color: rgb(50, 39, 74);
     width:90% !important;
 }
 .statush4{
-    font-family:Gilroy-Medium;
-    font-size: 24px !important;
+    /* font-family:Gilroy-Medium;
+    font-size: 24px !important; */
     line-height: 23px !important;
     text-align: center !important;
     color: #fe4759 !important ;
 }
 .roadmaph4{
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     font-weight: 800;
     /* font-size: 15px; */
     line-height: 26px;
@@ -161,8 +164,8 @@ background-color: rgb(50, 39, 74);
 }
 /* FaQ section  */
 .faq1{
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     font-weight: 500;
     font-size: 50px;
     text-align: center;
@@ -174,7 +177,7 @@ background-color: rgb(50, 39, 74);
     background-color: #fe4759 !important;
 }
 .accordion-button{
-    font-family: Gilroy-Medium;
+    /* font-family: Gilroy-Medium; */
     font-size: 20px;
     color: #fff;
     padding: 20px;
@@ -199,8 +202,8 @@ background-color: rgb(50, 39, 74);
     background-size: cover !important; 
 }
 .footertwoh3, .footertwoh4 {
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     line-height: 35px;
     text-align: center;
 }
@@ -210,7 +213,7 @@ background-color: rgb(50, 39, 74);
     box-sizing: border-box;
     border-radius: 15px;
     font-size: 25px;
-    font-family: Gilroy-Medium;
+    /* font-family: Gilroy-Medium; */
 }
 .footertwoimage {
     width:100%;
@@ -231,8 +234,8 @@ background-color: rgb(50, 39, 74);
     color: white;
 }
 .list {
-    font-family: gilroy-medium;
-    font-style: normal;
+    /* font-family: gilroy-medium;
+    font-style: normal; */
     font-weight: 650;
     font-size: 14px;
     
@@ -262,8 +265,8 @@ background-color: rgb(50, 39, 74);
     width:100%; */
 }
 .claimh2{
-        font-family: Gilroy-Medium !important;
-        font-style: normal;
+        /* font-family: Gilroy-Medium !important;
+        font-style: normal; */
         text-align: center;
         font-weight: 500;
         font-size: 50px;
@@ -271,8 +274,8 @@ background-color: rgb(50, 39, 74);
       margin-bottom: 90px;
 }
 .claimp {
-    font-family: Gilroy-Medium;
-    font-style: normal;
+    /* font-family: Gilroy-Medium;
+    font-style: normal; */
     text-align: center;
     font-weight: 400;
     font-size: 26px;
@@ -284,7 +287,7 @@ background-color: rgb(50, 39, 74);
     color: #fff;
 }
 .claimbtn{
-    font-family: Gilroy-Medium;
+    /* font-family: Gilroy-Medium; */
     font-size: 22px;
     background-color: #fe4759;
     color: #fff;
