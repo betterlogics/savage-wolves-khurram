@@ -1,8 +1,6 @@
 *{
     text-decoration: none;
     color: white;
-  
-    /* background-color: #261a40; */
 }
 body{
     font-family: 'Ibarra Real Nova', serif;
@@ -19,14 +17,13 @@ body{
 
     }
     .navbarbtn {
-        background-color: #fe4759;
-        color: #f6e42e;
-      
-        font-size: 16px;
+        background-color: #fe4759 !important;
+        color: #f6e42e !important;
+        font-size: 18px !important;
     }
     .navbarbtn:hover{
-        background-color: #f6e42e;
-        color:  #fe4759;
+        background-color: #f6e42e !important;
+        color:  #fe4759 !important;
     }
     .head{
         color: #fe4759 !important;
@@ -168,6 +165,14 @@ background-color: rgb(50, 39, 74);
 .accordion-flush .accordion-item .accordion-button {
 
     background-color: #fe4759 !important;
+}
+.accordion-button::after{
+    background-image:url(/assets/img/dropdown.png);
+filter: invert();
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotateX(150deg);
+    background-image:url(/assets/img/dropdown.png);
 }
 .accordion-button{
    
