@@ -5,8 +5,9 @@
     /* background-color: #261a40; */
 }
 body{
-    font-family: Gilroy-Medium !important;
-    font-style: normal !important;
+    font-family: 'Ibarra Real Nova', serif;
+    /* font-family: Gilroy-Medium !important;
+    font-style: normal !important; */
 }
 .nav-link{
     color: #f6e42e !important; 
