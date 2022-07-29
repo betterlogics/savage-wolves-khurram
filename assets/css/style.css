@@ -349,3 +349,23 @@ background-color:#fe4759;
     border-image: initial;
     border-radius: 23px;
 }
+.headerh4, .headerh444 {
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-size: 20px;
+   
+    text-align: end;
+    color: #fff;
+}
+.headerh4 {
+    line-height: 40px;
+    font-weight: 350;
+    margin-top: 10px;
+}
+.astext {
+    background: none;
+    border: none;
+   
+    font-weight: 400;
+    font-size: 34px;
+}
