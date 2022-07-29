@@ -1,13 +1,15 @@
 *{
     text-decoration: none;
     color: white;
+    font-family: Gilroy-Medium !important;
+    font-style: normal !important;
     
     /* background-color: #261a40; */
 }
-body{
+/* body{
     font-family: Gilroy-Medium !important;
     font-style: normal !important;
-}
+} */
 .nav-link{
     color: #f6e42e !important; 
     font-size: 25px;
