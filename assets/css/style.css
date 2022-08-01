@@ -44,7 +44,11 @@ body{
         width: 100% !important;
         height: 70vh !important;
     }
-    
+    @media screen and (max-width:992px) {
+        .bg-img{
+          height: 50vh !important;
+        }
+    }
     .menuh2{
         
         font-size: 30px;
