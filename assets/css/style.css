@@ -6,6 +6,10 @@ body{
     font-family: 'Ibarra Real Nova', serif;
   
 }
+.navbar{
+    width: 100%;
+    z-index: 5;
+}
 .nav-link{
     color: #f6e42e !important; 
     font-size: 25px;
@@ -32,12 +36,13 @@ body{
         color: #f6e42e !important;
     }
     .bg-img{
+        
         background-image: url(/assets/img/Attachment.02312234.jpg) !important ;
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-position: 50% !important;
         width: 100% !important;
-        height: 40vh !important;
+        height: 70vh !important;
     }
     
     .menuh2{
